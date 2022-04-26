@@ -16,9 +16,6 @@ addbtn.addEventListener("click", function (e) {
     }
     noteobj.push(notefield.value);
     localStorage.setItem("notes", JSON.stringify(noteobj));
-
-    console.log(noteobj);
-
     updateNotes();
   }
 
